@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="154dp"
+            android:layout_height="34dp"
+            android:text="@string/txt_Nombre"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Ingrese el nombre"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="153dp"
+            android:layout_height="43dp"
+            android:text="@string/txt_Edad"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Ingrese la edad"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="186dp"
+            android:layout_height="47dp"
+            android:text="@string/txt_Puesto"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="372dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Ingrese el puesto"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="442dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

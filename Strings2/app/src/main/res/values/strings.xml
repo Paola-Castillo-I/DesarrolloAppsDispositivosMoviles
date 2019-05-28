@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Strings2</string>
+    <string name="txt_Nombre">Nombre</string>
+    <string name="txt_Edad">Edad</string>
+    <string name="txt_Puesto">Puesto</string>
+
+    <string name="edit_Nombre">Nombre</string>
+</resources>
